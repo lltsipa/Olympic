@@ -16,7 +16,7 @@ import java.util.Set;
  * Created by lodz on 2016/08/16.
  */
 @RestController
-@RequestMapping(value = "/**")
+@RequestMapping(value = "/")
 public class PlayerController {
     @Autowired
     PlayerService playerService;

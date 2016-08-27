@@ -1,0 +1,35 @@
+<dataSource name="MySQL - olympicsdb@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="olympicsdb">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema" />
+    <schema id="3" name="mulberry&amp;prince_db" />
+    <schema id="4" name="mulberry_and_prince_db" />
+    <schema id="5" name="mysql" />
+    <schema id="6" name="performance_schema" />
+    <schema id="7" name="sys" />
+    <table id="8" parent="1" name="hibernate_sequence" />
+    <table id="9" parent="1" name="player" />
+    <column id="10" parent="8" name="next_val">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="11" parent="9" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="12" parent="9" name="playerAge">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="13" parent="9" name="playerName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="14" parent="9" name="playerSurname">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="15" parent="9" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

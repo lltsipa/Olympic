@@ -23,7 +23,7 @@ import java.util.Map;
 //@WebAppConfiguration
 public class TestPlayerService extends AbstractTestNGSpringContextTests {
 
-  //  @Autowired
+//    @Autowired
     private PlayerService service;
     private Map<String,String> map;
 
